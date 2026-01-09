@@ -1,0 +1,34 @@
+# --- Secrets & Config ---
+.env
+config.json
+secrets.json
+credentials.json
+token.json
+snowflake_email_automation_manual_for_portfolio.py  # IGNORE THIS if it still has real keys in it!
+
+# --- System & Logs ---
+__pycache__/
+*.log
+*.csv
+*.json   # Ignores data dumps like extracted_logs.json
+*.ipynb
+/tmp/    # Ignores the temp folder used by Airflow
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Images/Screenshots ---
+*.png
+*.jpg
+*.jpeg
+*.gif
+screenshots/
+
+# Ignore the specific virtual environment folder causing the crash
+airflow-project/sandbox/
+sandbox/
+
+# Ignore Jupyter Notebook autosaves (the warnings you saw)
+.ipynb_checkpoints/

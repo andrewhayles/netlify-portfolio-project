@@ -1,0 +1,8 @@
+streamlit
+snowflake-connector-python
+pandas
+pydantic
+langchain-google-genai
+apache-airflow
+requests
+google-auth
